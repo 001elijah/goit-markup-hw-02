@@ -7,20 +7,27 @@
 /* hero bg and footer bg color: #2F303A */
 /* inactive button color: #F5F4FA */
 
+/* page main color custom css variables */
+:root {
+    --main-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
 /* common page style */
 .page {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 
 /* logo style */
 .logo-1-2 {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .logo-2-2 {
-    color: #000000;
+    color: var(--main-text-color);
 }
 
 /* remove dots from list */
@@ -30,18 +37,18 @@
 
 /* page nav */
 .page-nav a {
-    color: #212121;
+    color: var(--main-text-color);
 }
 .contact-nav a {
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 .page-nav a:hover,
 .contact-nav a:hover,
 .page-nav a:focus,
 .contact-nav a:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .section-title {
-    color: #212121;
+    color: var(--main-text-color);
 }
