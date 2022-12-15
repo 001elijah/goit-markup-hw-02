@@ -1,3 +1,15 @@
-body {
+/* main text color: #212121 */
+/* secondary text color: #757575 */
+/* white text color: #FFFFFF */
+/* white page bg color: #FFFFFF */
+/* secondary page bg color: #F5F4FA */
+/* accent color: #2196F3 */
+/* hero bg and footer bg color: #2F303A */
+/* inactive button color: #F5F4FA */
+
+
+.page {
     font-family: 'Roboto', sans-serif;
+    color: #757575;
+    background-color: #FFFFFF;
 }
