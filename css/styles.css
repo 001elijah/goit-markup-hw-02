@@ -7,9 +7,41 @@
 /* hero bg and footer bg color: #2F303A */
 /* inactive button color: #F5F4FA */
 
-
+/* common page style */
 .page {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
     color: #757575;
+}
+
+/* logo style */
+.logo-1-2 {
+    color: #2196F3;
+}
+
+.logo-2-2 {
+    color: #000000;
+}
+
+/* remove dots from list */
+.list {
+    list-style: none;
+}
+
+/* page nav */
+.page-nav a {
+    color: #212121;
+}
+.contact-nav a {
+    color: #757575;
+}
+.page-nav a:hover,
+.contact-nav a:hover,
+.page-nav a:focus,
+.contact-nav a:focus {
+    color: #2196F3;
+}
+
+.section-title {
+    color: #212121;
 }
