@@ -5,14 +5,14 @@
 /* secondary page bg color: #F5F4FA */
 /* accent color: #2196F3 */
 /* dark hero bg and footer bg color: #2F303A */
-/* inactive button color: #F5F4FA */
+/* off white color: #F5F4FA */
 
 /* page main color custom css variables */
 :root {
     --main-text-color: #212121;
     --secondary-text-color: #757575;
     --accent-color: #2196F3;
-    --inactive-button-color: #F5F4FA;
+    --off-white-color: #F5F4FA;
     --white-text-color: #FFFFFF;
     --dark-background-color: #2F303A;
 }
@@ -60,20 +60,43 @@
     color: var(--accent-color);
 }
 
+/* hero */
+
+.hero {
+    background-color: var(--dark-background-color);
+}
+
+.hero .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+}
+
+.button-hero {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+}
+
 /* section title formatting */
+.section.team {
+    background-color: var(--off-white-color);
+}
+
 .section-title {
     color: var(--main-text-color);
 }
 
 /* buttons */
-.button-accent {
-    color: var(--white-text-color);
-    background-color: var(--accent-color);
-}
 
 .button {
     color: var(--main-text-color);
-    background-color: var(--inactive-button-color);
+    background-color: var(--off-white-color);
     border: 0px;
 }
 .button:hover,
