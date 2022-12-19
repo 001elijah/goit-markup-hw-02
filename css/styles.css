@@ -115,6 +115,9 @@
     letter-spacing: 0.06em;
     
     background-color: var(--accent-color);
+
+    width: 216px;
+    height: 50px;
 }
 
 /* section title formatting */
