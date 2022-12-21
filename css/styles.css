@@ -120,6 +120,10 @@
     height: 50px;
 }
 
+.hero-button:hover {
+    cursor: pointer;
+}
+
 /* section title formatting */
 .section.team {
     background-color: var(--off-white-color);
